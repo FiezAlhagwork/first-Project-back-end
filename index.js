@@ -18,7 +18,7 @@ app.use("/api/products" , ProductRoute)
 //.env
 const username = process.env.MONGO_USERNAME
 const password = process.env.MONGO_PASSWORD;
-console.log(username , password);
+
 
 
 app.get("/", (req, res) => {
